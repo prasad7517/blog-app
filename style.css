@@ -1,0 +1,15 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .printable {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .btn {
+        display: none; /* Hide buttons */
+    }
+}
